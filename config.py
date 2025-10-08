@@ -1,0 +1,5 @@
+MAX_TOKENS = 128000
+TOKEN_PER_WORD = 1.3
+MAX_WORDS = int(MAX_TOKENS / TOKEN_PER_WORD)
+# Timeout settings (in seconds)
+REQUEST_TIMEOUT_SECONDS = 300  # 5 minutes
