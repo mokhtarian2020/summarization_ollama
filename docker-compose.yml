@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  summarizer:
+    build: .
+    ports:
+      - "8002:8002"
+    environment:
+      OLLAMA_URL: "http://host.docker.internal:11434/v1/chat/completions"
+    restart: unless-stopped
