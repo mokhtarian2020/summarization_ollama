@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+ollama>=0.1.6
+httpx
+pandas
+tqdm
+spacy
+rouge_score
+bert-score
+textstat
+
+# Additional package for spaCy Italian model
+it-core-news-md @ https://github.com/explosion/spacy-models/releases/download/it_core_news_md-3.7.0/it_core_news_md-3.7.0.tar.gz
